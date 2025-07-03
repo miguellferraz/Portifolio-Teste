@@ -51,7 +51,7 @@ section {
     font-family: 'DisplayBold';
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 nav ul {
@@ -65,7 +65,7 @@ nav ul li a {
     display: inline-block;
     font-family: 'DisplayMedium';
     color: white;
-    font-size: 16px;
+    font-size: 1em;
     transition: filter 0.3s ease;
     text-decoration: none;
 }
@@ -98,7 +98,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 6.25em;
     text-shadow: 3px 3px 10px #014668;
 }
 
@@ -107,7 +107,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.25em;
     padding-left: 5px;
     text-shadow: 3px 3px 10px #014668;
 }
@@ -137,7 +137,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 4.375em;
 }
 
 .sobre-div {
@@ -165,7 +165,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 1.875em;
     padding-left: 5px;
 }
 
@@ -186,7 +186,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 4.375em;
 }
 
 .projetos-caixa {
@@ -229,14 +229,14 @@ nav ul li a:focus {
     font-family: 'DisplayBold';
     color: white;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .paragrafo-projetos {
     font-family: 'DisplayRegular';
     color: white;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 1.25em;
     padding: 10px;
 }
 
@@ -260,7 +260,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 4.375em;
     margin-bottom: 10px;
 }
 
@@ -307,7 +307,7 @@ nav ul li a:focus {
     color: white;
     opacity: 80%;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3.125em;
 }
 
 .contatos-div {
