@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'DisplayBold';
+    src: url(./fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+@font-face {
+    font-family: 'DisplayMedium';
+    src: url(./fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+    font-family: 'DisplayRegular';
+    src: url(./fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(#000E14, #00141F, #001B29);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.navegacao {
+    position: fixed;
+    background-color: #00111a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 0px 80px;
+    z-index: 100;
+}
+
+section {
+    max-height: 100vh;
+}
+
+.logo {
+    font-family: 'DisplayBold';
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family: 'DisplayMedium';
+    color: white;
+    font-size: 16px;
+    transition: filter 0.3s ease;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-div {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.apresentacao {
+    font-family: 'DisplayBold';
+    color: white;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 3px 3px 10px #014668;
+}
+
+.profissao {
+    font-family: 'DisplayRegular';
+    color: white;
+    opacity: 80%;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 5px;
+    text-shadow: 3px 3px 10px #014668;
+}
+
+.foto-perfil {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px #000E14;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.sobre-titulo {
+    font-family: 'DisplayBold';
+    padding-bottom: 20px;
+    color: white;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.sobre-div {
+    background-color: #001B29;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+.sobre-caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    min-height: 60%; 
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.sobre-paragrafo {
+    font-family: 'DisplayRegular';
+    color: white;
+    opacity: 80%;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.projetos-titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    font-family: 'DisplayBold';
+    color: white;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.projetos-caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projetos-div {
+    width: 90%;
+    height: 40%; 
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.projetos-card a{
+    background-color: #001f30;
+    border-radius: 30px;
+    width: 520px;
+    height: 450px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    transition: transform 0.4s ease;
+}
+.projetos-card a:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.info-projetos {
+    font-family: 'DisplayBold';
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.paragrafo-projetos {
+    font-family: 'DisplayRegular';
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.projetos-card img {
+    border-radius: 15px;
+    width: 480px;
+    height: 250px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.skills-titulo {
+    font-family: 'DisplayBold';
+    color: white;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.skills-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 100px; 
+    justify-items: center;
+    align-items: center;
+    background-color: #001B29;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.skills-icon img {
+    width: 200px;
+    height: 200px;
+}
+
+.skills-icon {
+    transition: transform 0.4s ease;
+    filter: brightness(60%);
+}
+
+.skills-icon:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+.contatos {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contatos-titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'DisplayBold';
+    color: white;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.contatos-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    gap: 15px;
+}
+
+.contatos-icon a img{
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+    opacity: 80%;
+    transition: filter 0.3s ease;
+}
+
+.contatos-icon a img:hover{
+    cursor: pointer;
+    filter: invert(100%) brightness(60%);
+}
+
+footer {
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DisplayRegular';
+    font-size: 1em;
+    color: #003b583f;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: linear-gradient(#000E14, #00141F, #001B29); 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #001f30;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #022a3f;
+}
+
